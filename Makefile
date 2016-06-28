@@ -69,7 +69,7 @@ $(PROJ_NAME).elf: $(SRCS)
 	$(SIZE) $(PROJ_NAME).elf
 	
 program: $(PROJ_NAME).bin
-	st-flash write $(PROJ_NAME).bin 0x8000000
+	st-flash --reset write $(PROJ_NAME).bin 0x8000000
 
 clean:
 	find ./ -name '*~' | xargs rm -f	
