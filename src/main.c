@@ -39,7 +39,7 @@ void SysTick_Handler(void) {
 	ADC1ConvertedValue = ADC_GetConversionValue(ADC1);
 
 	/* Compute the voltage */
-	data[i++] = (ADC1ConvertedValue * 3300)/0xFFF;
+	data[i++] = ADC1ConvertedValue;
 	if(i > 10)
 	{
 		for (int j = 0; j < 10; ++j)
