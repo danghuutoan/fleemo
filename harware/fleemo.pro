@@ -1,4 +1,4 @@
-update=Mon 11 Jul 2016 06:51:56 AM ICT
+update=Thứ ba, 19 Tháng bảy Năm 2016 06:40:36 ICT
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../../kicad-lib;../../../kicad-lib/kicad-library/library
+LibDir=lib
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,7 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=ucc28713
-LibName31=kicad-library/library/stm32
-LibName32=kicad-library/library/texas
-LibName33=kicad-library/library/transf
+LibName30=lib/wurth-750312723
