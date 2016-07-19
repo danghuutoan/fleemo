@@ -1,4 +1,4 @@
-update=Thứ ba, 19 Tháng bảy Năm 2016 06:40:36 ICT
+update=Thứ ba, 19 Tháng bảy Năm 2016 08:48:10 ICT
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=lib
+LibDir=lib;lib
 [eeschema/libraries]
 LibName1=power
 LibName2=device
