@@ -1,4 +1,4 @@
-update=Thứ tư, 20 Tháng bảy Năm 2016 06:34:12 ICT
+update=Thứ năm, 21 Tháng bảy Năm 2016 06:33:31 ICT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,21 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=lib;lib
+LibDir=lib;lib;../../../Dropbox/kicad-library/library;../../../Dropbox/nc-libs-master
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,15 +70,6 @@ LibName28=contrib
 LibName29=valves
 LibName30=lib/wurth-750312723
 LibName31=lib/UCC28700
-[general]
-version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName32=stm32
+LibName33=Power_Management
+LibName34=/home/toan/Dropbox/nc-libs-master/AMS1117
