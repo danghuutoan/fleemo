@@ -1,4 +1,4 @@
-update=Thứ năm, 21 Tháng bảy Năm 2016 06:33:31 ICT
+update=Thứ sáu, 22 Tháng bảy Năm 2016 07:08:20 ICT
 version=1
 last_client=kicad
 [pcbnew]
@@ -73,3 +73,4 @@ LibName31=lib/UCC28700
 LibName32=stm32
 LibName33=Power_Management
 LibName34=/home/toan/Dropbox/nc-libs-master/AMS1117
+LibName35=lib/fleemo
